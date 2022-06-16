@@ -1,0 +1,127 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../polices/ballpark.eot');
+    src: url('../polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header
+{
+	border: 4px red solid;
+	max-width: 950px;
+	margin: 0 auto;
+	font-family: cursive;
+	font-size: 20px;
+}
+#zozor
+{
+	font-family: 'BallparkWeiner', serif;
+	font-size: 45px;
+}
+nav
+{
+	border: 4px blue solid;
+	margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;   
+}
+ul 
+{
+  list-style-type: none;
+}
+li
+{
+	display: inline;
+}
+#div1
+{
+	border: 4px orange solid;;
+	display: flex;
+ 	object-fit: fill;
+ 	justify-content: center;
+ 	width: fit-content; 
+ 	height: fit-content;
+ 	margin: 0 auto;
+ 	max-width: 950px;
+
+}
+section
+{
+	border: 4px green solid;
+	height: 500px;
+	object-fit: fill;
+	display: flex;
+	max-width: 950px;	
+	margin: 0 auto;
+}
+article 
+{
+	border: 4px purple solid;
+	justify-content: left;
+	max-width: auto;
+	max-height: auto;
+
+}
+aside
+{
+	border: 4px pink solid;
+	border-radius: 10px / 10px;
+	height: fit-content;
+	width: 1900px;
+	background-color: gray;
+}
+#logo
+{
+	margin: 0 auto;
+	justify-content: center;
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+}
+footer 
+{
+	border: 4px darkblue solid;
+	justify-content: space-around;
+	height: 150px;
+	display: flex;
+ 	object-fit: fill;
+ 	font-size: 20px;
+ 	max-width: 950px;
+	margin: 0 auto;
+}
+#div2
+{
+	border: 4px black solid;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#div3
+{
+	border: 4px black solid;
+	width: 250px;
+	margin: 0 auto;
+}
+#div4
+{
+	border: 4px black solid;
+	width: 250px;
+	margin: 0 auto;
+}
+
