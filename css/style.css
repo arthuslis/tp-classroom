@@ -39,11 +39,11 @@ nav
 	margin: 0 auto;
     width: 600px;
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
 }
-ul 
+#ul1
 {
-  list-style-type: none;
+	display: inline;
 }
 li
 {
@@ -123,5 +123,6 @@ footer
 	border: 4px black solid;
 	width: 250px;
 	margin: 0 auto;
+	list-style-type: disc;
 }
 
