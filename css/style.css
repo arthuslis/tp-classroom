@@ -22,11 +22,11 @@
 }
 header
 {
-	border: 4px red solid;
 	max-width: 950px;
 	margin: 0 auto;
 	font-family: cursive;
 	font-size: 20px;
+	clear: right;
 }
 #zozor
 {
@@ -35,23 +35,18 @@ header
 }
 nav
 {
-	border: 4px blue solid;
 	margin: 0 auto;
     width: 600px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    float: right;
 }
 #ul1
 {
 	display: inline;
 }
-li
-{
-	display: inline;
-}
 #div1
 {
-	border: 4px orange solid;;
 	display: flex;
  	object-fit: fill;
  	justify-content: center;
@@ -59,11 +54,9 @@ li
  	height: fit-content;
  	margin: 0 auto;
  	max-width: 950px;
-
 }
 section
 {
-	border: 4px green solid;
 	height: 500px;
 	object-fit: fill;
 	display: flex;
@@ -72,19 +65,20 @@ section
 }
 article 
 {
-	border: 4px purple solid;
 	justify-content: left;
 	max-width: auto;
 	max-height: auto;
+	margin-right: 10px;
 
 }
 aside
 {
-	border: 4px pink solid;
+	border: 4px transparent solid;
 	border-radius: 10px / 10px;
 	height: fit-content;
 	width: 1900px;
 	background-color: gray;
+	margin-top: 10px;
 }
 #logo
 {
@@ -96,33 +90,36 @@ aside
 }
 footer 
 {
-	border: 4px darkblue solid;
 	justify-content: space-around;
 	height: 150px;
 	display: flex;
  	object-fit: fill;
- 	font-size: 20px;
- 	max-width: 950px;
+ 	font-size: 15px;
+ 	max-width:950px;
 	margin: 0 auto;
+	border-top: 2px black solid;
 }
 #div2
 {
-	border: 4px black solid;
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
 }
 
 #div3
 {
-	border: 4px black solid;
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
-}
+}	
 #div4
 {
-	border: 4px black solid;
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
-	list-style-type: disc;
+	display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.accueil
+{
+	text-decoration: underline darkred;
 }
 
