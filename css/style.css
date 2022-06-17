@@ -27,6 +27,8 @@ header
 	font-family: cursive;
 	font-size: 20px;
 	clear: right;
+	background-image:  url("../images/fond_jaune.png");
+	background-color: yellow;
 }
 #zozor
 {
